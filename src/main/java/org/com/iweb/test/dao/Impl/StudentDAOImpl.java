@@ -113,7 +113,7 @@ public class StudentDAOImpl implements StudentDAO {
 
     @Override
     public Integer count() {
-        String sql = "select count(*) from student";
+        String sql = "select count(*) from student";//阿巴阿巴
         try(
                 Connection c =DBUtil.getConnection();
                 PreparedStatement ps = c.prepareStatement(sql)
